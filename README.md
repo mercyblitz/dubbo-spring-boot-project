@@ -5,6 +5,9 @@
 ![license](https://img.shields.io/github/license/apache/dubbo-spring-boot-project.svg)
 
 [Apache Dubbo](https://github.com/apache/dubbo) Spring Boot Project makes it easy to create [Spring Boot](https://github.com/spring-projects/spring-boot/) application using Dubbo as RPC Framework. What's more, it also provides 
+[![codecov](https://codecov.io/gh/apache/dubbo-spring-boot-project/branch/master/graph/badge.svg)](https://codecov.io/gh/apache/ubbo-spring-boot-project)
+![license](https://img.shields.io/github/license/apache/dubbo-spring-boot-project.svg)
+
 
 * [auto-configure features](dubbo-spring-boot-autoconfigure) (e.g., annotation-driven, auto configuration, externalized configuration).
 * [production-ready features](dubbo-spring-boot-actuator) (e.g., security, health checks, externalized configuration).
@@ -19,8 +22,8 @@
 You can introduce the latest `dubbo-spring-boot-starter` to your project by adding the following dependency to your pom.xml
 ```xml
 <properties>
-    <spring-boot.version>2.2.0.RELEASE</spring-boot.version>
-    <dubbo.version>2.7.4.1</dubbo.version>
+    <spring-boot.version>2.2.2.RELEASE</spring-boot.version>
+    <dubbo.version>2.7.5</dubbo.version>
 </properties>
     
 <dependencyManagement>
@@ -51,7 +54,7 @@ You can introduce the latest `dubbo-spring-boot-starter` to your project by addi
     <dependency>
         <groupId>org.apache.dubbo</groupId>
         <artifactId>dubbo-spring-boot-starter</artifactId>
-        <version>2.7.4.1</version>
+        <version>2.7.5</version>
     </dependency>    
 </dependencies>
 ```
@@ -220,7 +223,7 @@ Having trouble with Dubbo Spring Boot? We’d like to help!
 
 ## Building from Source
 
-If you want to try out thr latest features of Dubbo Spring Boot, it can be easily built with the [maven wrapper](https://github.com/takari/maven-wrapper). Your JDK is 1.8 or above.
+If you want to try out the latest features of Dubbo Spring Boot, it can be easily built with the [maven wrapper](https://github.com/takari/maven-wrapper). Your JDK is 1.8 or above.
 
 ```
 $ ./mvnw clean install
